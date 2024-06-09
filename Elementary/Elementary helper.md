@@ -26,8 +26,12 @@ Elementary helper - библиотека которая содержит в се
 
 Виджет который занимается тем же что и EntityStateNotifierBuilder. Только с 2 прослушиваемыми объектами
 
+[[DoubleEntityStateNotifierBuilder]]
+
 ---
 
 ## TripleEntityStateNotifierBuilder
 
 Виджет который занимается тем же что и EntityStateNotifierBuilder. 3 прослушиваемыми объектами
+
+[[TripleEntityStateNotifierBuilder]]

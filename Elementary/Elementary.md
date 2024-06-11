@@ -52,7 +52,7 @@ Future<void> loadSomeData(){
 
 ## Widget model
 
-[[Async Depndency]]
+[[Async Dependency]]
 
 ```dart
 // Абстрактный интерфейс в котором будут описаны все методы и объекты.

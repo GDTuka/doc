@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"ee117b585e2cbe2e","type":"text","text":"dev","x":-300,"y":-100,"width":250,"height":60},
+		{"id":"b3b855eefeacff95","type":"text","text":"release","x":-300,"y":40,"width":250,"height":60},
+		{"id":"632603b9a99ae5c3","type":"text","text":"new branch","x":60,"y":180,"width":250,"height":50},
+		{"id":"b2b61a7eb0f246cd","type":"text","text":"release","x":460,"y":40,"width":250,"height":60},
+		{"id":"8a76ffbc780a11b3","type":"text","text":"dev","x":460,"y":-100,"width":250,"height":60},
+		{"id":"c5fb1825f91d69ae","type":"text","text":"updated Dev","x":840,"y":-100,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"bb2e37580bcbcb49","fromNode":"b3b855eefeacff95","fromSide":"right","toNode":"632603b9a99ae5c3","toSide":"left","label":"create new branch"},
+		{"id":"b7f5ead5a6c3870d","fromNode":"632603b9a99ae5c3","fromSide":"right","toNode":"b2b61a7eb0f246cd","toSide":"left","label":"mr to release"},
+		{"id":"f8d6353c80d74565","fromNode":"632603b9a99ae5c3","fromSide":"right","toNode":"8a76ffbc780a11b3","toSide":"left","label":"mr to dev"},
+		{"id":"4157fc3df33379b0","fromNode":"ee117b585e2cbe2e","fromSide":"right","toNode":"8a76ffbc780a11b3","toSide":"left","label":"time"},
+		{"id":"17a7a3a1393f9cdb","fromNode":"b3b855eefeacff95","fromSide":"right","toNode":"b2b61a7eb0f246cd","toSide":"left","label":"time"},
+		{"id":"1cd167baaa4911f6","fromNode":"b2b61a7eb0f246cd","fromSide":"right","toNode":"c5fb1825f91d69ae","toSide":"left","label":"new release"},
+		{"id":"5b8492dd79bd1d76","fromNode":"8a76ffbc780a11b3","fromSide":"right","toNode":"c5fb1825f91d69ae","toSide":"left"}
+	]
+}

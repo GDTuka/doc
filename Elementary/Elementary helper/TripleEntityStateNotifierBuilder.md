@@ -8,6 +8,7 @@
 
 Пример:
 
+
 ```dart
 DoubleEntityStateNotifierBuiler<List<Data>, Data>(
 	// Первый прослушиваемый объект
